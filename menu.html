@@ -1,0 +1,919 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Services | Jia Nailroom</title>
+    <meta name="description" content="Resto">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/select2/select2.min.css">
+    <link rel="stylesheet" href="vendor/owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.css">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.1/css/tempusdominus-bootstrap-4.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/brands.css">
+
+    <!-- Fonts -->
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Josefin+Sans:300,400,700">
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+          integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="icon" href="img/Jia-nailroom-favicon.svg">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/font-awesome.css"><link rel="stylesheet" href="css/style.min.css">
+
+    <!-- Modernizr JS for IE8 support of HTML5 elements and media queries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+
+</head>
+<body data-spy="scroll" data-target="#navbar">
+<div id="mySidenav" class="sidenav">
+    <a id="side-nav-close" onclick="closeNav()">&times;</a>
+    
+    <div class="sidenav-content">
+        
+        <a class="navbar-brand align-items-center" href="index.html"
+           style="padding-left: 0px;padding-right: 70px;padding-bottom: 30px">
+            <img src="img/Jia-nailroom-logo-white.png" alt="Jia Nailroom">
+        </a>
+        <h5>Address</h5>
+        <p>2572 Queensgate Dr Richland, Washington 99352</p>
+        <h5>Tel</h5>
+        <a href="tel:+15096283628"><p>(509) 628-3628</p></a>
+        <h5>Email</h5>
+        <p>jia.nailroom@outlook.com</p>
+        <h5>Hours</h5>
+        <span class="left-column-day">Mon - Fri</span><span>09:30 AM - 07:00 PM</span> <br>
+        <span class="left-column-day">Sat</span><span>09:30 AM - 06:00 PM</span> <br>
+        <span class="left-column-day">Sun</span><span>10:30 AM - 05:30 PM</span>
+        
+    </div>
+</div>
+<div id="side-search" class="sidenav">
+    <a href="javascript:void(0)" id="side-search-close">&times;</a>
+    <div class="sidenav-content">
+        <form action="">
+
+            <div class="input-group md-form form-sm form-2 pl-0">
+                <input class="form-control my-0 py-1 red-border" type="text" placeholder="Search" aria-label="Search">
+                <div class="input-group-append">
+                    <button class="input-group-text red lighten-3" id="basic-text1">
+                        <i class="fas fa-search text-grey" aria-hidden="true"></i>
+                    </button>
+                </div>
+            </div>
+
+        </form>
+    </div>
+</div>
+
+<div id="canvas-overlay"></div>
+<div class="boxed-page bg-white">
+    <nav id="navbar-header" class="navbar navbar-expand-lg">
+        <div class="container">
+            <!--mobile logo -->
+            <a class="navbar-brand navbar-brand-center d-flex align-items-center p-0 only-mobile" href="index.html">
+                <img src="img/Jia-nailroom-logo-brown.png" alt="Jia Nailroom">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="lnr lnr-menu"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+                <ul class="navbar-nav d-flex justify-content-between">
+                    <li class="nav-item only-desktop">
+                        <a class="nav-link" id="side-nav-open" href="#">
+                            <span class="lnr lnr-menu" onclick="openNav()"></span>
+                        </a>
+                    </li>
+                    <div class="d-flex flex-lg-row flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="gallery.html">Gallery</a>
+                        </li>
+                    
+                    
+                    </div>
+                </ul>
+                
+                <a class="navbar-brand navbar-brand-center d-flex align-items-center only-desktop" href="index.html">
+                    <img src="img/Jia-nailroom-logo-brown.png" alt="Jia Nailroom">
+                </a>
+                <ul class="navbar-nav d-flex justify-content-between">
+                    <div class="d-flex flex-lg-row flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="menu.html">Services</a>
+                        </li>
+                        
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="reservation.html">Contact</a>
+                        </li>
+                    </div>
+                    <li class="nav-item">
+                        <a id="side-search-open" class="nav-link" href="#">
+                            <span class="lnr lnr-magnifier"></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section id="gtco-menu" class="section-padding bg-silver">
+        <div class="container">
+            <div class="section-content">
+                <div class="row mb-5">
+                    <div class="col-md-12">
+                        <div class="heading-section text-center">
+                        <span class="subheading">
+                            Beauty at the tips of your fingers
+                        </span>
+                            <h2>
+                                Jia Nailroom Services
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="row justify-content-around">
+                        <div class="col-md-6 col-lg-6 col-xl-5 menu-wrap">
+                            <div class="heading-menu mb-4">
+                                <h3 class="text-center mb-3 mt-3">Manicure & Pedicure</h3>
+                                <div class="menu-img rounded-circle m-auto">
+                                    <img class="img-fluid" src="img/home/Jia-nailroom-manicure-pedicure.jpg" alt="Jia Nailroom">
+                                </div>
+                            </div>
+                            <div class="menus d-flex align-items-center">
+                                <!--<div class="menu-img rounded-circle">-->
+                                <!--<img class="img-fluid" src="img/home/bijou-nail-spa-and-hair-nail-care-01.jpg" alt="Jia Nailroom">-->
+                                <!--</div>-->
+                                <div class="text-wrap">
+                                    <div class="row align-items-start">
+                                        <div class="col-8">
+                                            <h4>Regular Manicure</h4>
+                                        </div>
+                                        <div class="col-4">
+                                            <h4 class="text-muted menu-price">$31</h4>
+                                        </div>
+                                    </div>
+                                    <!--<p>Bacis Full Set-->
+                                    <!--</p>-->
+                                </div>
+                            </div>
+                            <div class="menus d-flex align-items-center">
+                                <div class="text-wrap">
+                                    <div class="row align-items-start">
+                                        <div class="col-8">
+                                            <h4>Gel Manicure</h4>
+                                        </div>
+                                        <div class="col-4">
+                                            <h4 class="text-muted menu-price">$41</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="menus d-flex align-items-center">
+                                <div class="text-wrap">
+                                    <div class="row align-items-start">
+                                        <div class="col-8">
+                                            <h4>Classic Pedicure</h4>
+                                        </div>
+                                        <div class="col-4">
+                                            <h4 class="text-muted menu-price">$36</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="menus d-flex align-items-center">
+                                <div class="text-wrap">
+                                    <div class="row align-items-start">
+                                        <div class="col-8">
+                                            <h4>Hot Stone Pedicure</h4>
+                                        </div>
+                                        <div class="col-4">
+                                            <h4 class="text-muted menu-price">$41</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="menus d-flex align-items-center">
+                                <div class="text-wrap">
+                                    <div class="row align-items-start">
+                                        <div class="col-8">
+                                            <h4>Mud Mask Pedicure</h4>
+                                        </div>
+                                        <div class="col-4">
+                                            <h4 class="text-muted menu-price">$41</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="menus d-flex align-items-center">
+                                <div class="text-wrap">
+                                    <div class="row align-items-start">
+                                        <div class="col-8">
+                                            <h4>Paraffin Wax Peidicure</h4>
+                                        </div>
+                                        <div class="col-4">
+                                            <h4 class="text-muted menu-price">$46</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="menus d-flex align-items-center">
+                                <div class="text-wrap">
+                                    <div class="row align-items-start">
+                                        <div class="col-8">
+                                            <h4>Delux Pedicure</h4>
+                                        </div>
+                                        <div class="col-4">
+                                            <h4 class="text-muted menu-price">$50</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="menus d-flex align-items-center">
+                                <div class="text-wrap">
+                                    <div class="row align-items-start">
+                                        <div class="col-8">
+                                            <h4>Detox Pedicure</h4>
+                                        </div>
+                                        <div class="col-4">
+                                            <h4 class="text-muted menu-price">$65</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="menus d-flex align-items-center">
+                                <div class="text-wrap">
+                                    <div class="row align-items-start">
+                                        <div class="col-8">
+                                            <h4>Gel Polish Pedicure</h4>
+                                        </div>
+                                        <div class="col-4">
+                                            <h4 class="text-muted menu-price">$20</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="menus d-flex align-items-center">
+                                <div class="text-wrap">
+                                    <div class="row align-items-start">
+                                        <div class="col-8">
+                                            <h4>Express Pedicure</h4>
+                                        </div>
+                                        <div class="col-4">
+                                            <h4 class="text-muted menu-price">$32</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="menus d-flex align-items-center">
+                                <div class="text-wrap">
+                                    <div class="row align-items-start">
+                                        <div class="col-8">
+                                            <h4>Kid Pedicure</h4>
+                                        </div>
+                                        <div class="col-4">
+                                            <h4 class="text-muted menu-price">$24</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-6 col-lg-6 col-xl-5 menu-wrap">
+                            <div class="heading-menu mb-4">
+                                <h3 class="text-center mb-3 mt-3">Add-Ons</h3>
+                                <div class="menu-img rounded-circle m-auto">
+                                    <img class="img-fluid" src="img/home/Jia-nailroom-add-ons.jpg" alt="Jia Nailroom">
+                                </div>
+                            </div>
+                            <div class="menus d-flex align-items-center">
+                                <div class="text-wrap">
+                                    <div class="row align-items-start">
+                                        <div class="col-8">
+                                            <h4>Extra Massage</h4>
+                                        </div>
+                                        <div class="col-4">
+                                            <h4 class="text-muted menu-price">$12+</h4>
+                                        </div>
+                                    </div>
+                                    <!--<p>Bacis Full Set-->
+                                    <!--</p>-->
+                                </div>
+                            </div>
+                            <div class="menus d-flex align-items-center">
+                                <div class="text-wrap">
+                                    <div class="row align-items-start">
+                                        <div class="col-8">
+                                            <h4>Hot Stones</h4>
+                                        </div>
+                                        <div class="col-4">
+                                            <h4 class="text-muted menu-price">$6+</h4>
+                                        </div>
+                                    </div>
+                                    <!--<p>Bacis Full Set-->
+                                    <!--</p>-->
+                                </div>
+                            </div>
+                            <div class="menus d-flex align-items-center">
+                                <div class="text-wrap">
+                                    <div class="row align-items-start">
+                                        <div class="col-8">
+                                            <h4>Mud Mask</h4>
+                                        </div>
+                                        <div class="col-4">
+                                            <h4 class="text-muted menu-price">$6+</h4>
+                                        </div>
+                                    </div>
+                                    <!--<p>Bacis Full Set-->
+                                    <!--</p>-->
+                                </div>
+                            </div>
+                            <div class="menus d-flex align-items-center">
+                                <div class="text-wrap">
+                                    <div class="row align-items-start">
+                                        <div class="col-8">
+                                            <h4>Paraffin Wax </h4>
+                                        </div>
+                                        <div class="col-4">
+                                            <h4 class="text-muted menu-price">$10+</h4>
+                                        </div>
+                                    </div>
+                                    <!--<p>Bacis Full Set-->
+                                    <!--</p>-->
+                                </div>
+                            </div>
+                            <div class="menus d-flex align-items-center">
+                                <div class="text-wrap">
+                                    <div class="row align-items-start">
+                                        <div class="col-8">
+                                            <h4>Gel Polish</h4>
+                                        </div>
+                                        <div class="col-4">
+                                            <h4 class="text-muted menu-price">$20+</h4>
+                                        </div>
+                                    </div>
+                                    <!--<p>Bacis Full Set-->
+                                    <!--</p>-->
+                                </div>
+                            </div>
+                            <div class="menus d-flex align-items-center">
+                                <div class="text-wrap">
+                                    <div class="row align-items-start">
+                                        <div class="col-8">
+                                            <h4>Polish Removal</h4>
+                                        </div>
+                                        <div class="col-4">
+                                            <h4 class="text-muted menu-price">$5+</h4>
+                                        </div>
+                                    </div>
+                                    <!--<p>Bacis Full Set-->
+                                    <!--</p>-->
+                                </div>
+                            </div>
+                        </div>
+    
+                        
+                        <div class="col-md-6 col-lg-6 col-xl-6 menu-wrap">
+                            <div class="heading-menu mb-4">
+                                <h3 class="text-center mb-3 mt-3">Additional</h3>
+                                <div class="menu-img rounded-circle m-auto">
+                                    <img class="img-fluid" src="img/home/Jia-nailroom-additional.jpg" alt="Jia Nailroom">
+                                </div>
+                            </div>
+                            <div class="menus d-flex align-items-center">
+                                <div class="text-wrap">
+                                    <div class="row align-items-start">
+                                        <div class="col-8">
+                                            <h4>Length</h4>
+                                        </div>
+                                        <div class="col-4">
+                                            <h4 class="text-muted menu-price">$6+</h4>
+                                        </div>
+                                    </div>
+                                    <!--<p>Bacis Full Set-->
+                                    <!--</p>-->
+                                </div>
+                            </div>
+                            <div class="menus d-flex align-items-center">
+                                <div class="text-wrap">
+                                    <div class="row align-items-start">
+                                        <div class="col-8">
+                                            <h4>Shape</h4>
+                                        </div>
+                                        <div class="col-4">
+                                            <h4 class="text-muted menu-price">$6+</h4>
+                                        </div>
+                                    </div>
+                                    <!--<p>Bacis Full Set-->
+                                    <!--</p>-->
+                                </div>
+                            </div>
+                            <div class="menus d-flex align-items-center">
+                                <div class="text-wrap">
+                                    <div class="row align-items-start">
+                                        <div class="col-8">
+                                            <h4>Design</h4>
+                                        </div>
+                                        <div class="col-4">
+                                            <h4 class="text-muted menu-price">$4+</h4>
+                                        </div>
+                                    </div>
+                                    <!--<p>Bacis Full Set-->
+                                    <!--</p>-->
+                                </div>
+                            </div>
+                            <div class="menus d-flex align-items-center">
+                                <div class="text-wrap">
+                                    <div class="row align-items-start">
+                                        <div class="col-8">
+                                            <h4>French Tip</h4>
+                                        </div>
+                                        <div class="col-4">
+                                            <h4 class="text-muted menu-price">$7+</h4>
+                                        </div>
+                                    </div>
+                                    <!--<p>Bacis Full Set-->
+                                    <!--</p>-->
+                                </div>
+                            </div>
+                            <div class="menus d-flex align-items-center">
+                                <div class="text-wrap">
+                                    <div class="row align-items-start">
+                                        <div class="col-8">
+                                            <h4>3 Colors & Up</h4>
+                                        </div>
+                                        <div class="col-4">
+                                            <h4 class="text-muted menu-price">$4+</h4>
+                                        </div>
+                                    </div>
+                                    <!--<p>Bacis Full Set-->
+                                    <!--</p>-->
+                                </div>
+                            </div>
+                            <div class="menus d-flex align-items-center">
+                                <div class="text-wrap">
+                                    <div class="row align-items-start">
+                                        <div class="col-8">
+                                            <h4>Matte Top Coat</h4>
+                                        </div>
+                                        <div class="col-4">
+                                            <h4 class="text-muted menu-price">$5+</h4>
+                                        </div>
+                                    </div>
+                                    <!--<p>Bacis Full Set-->
+                                    <!--</p>-->
+                                </div>
+                            </div>
+                            <div class="menus d-flex align-items-center">
+                                <div class="text-wrap">
+                                    <div class="row align-items-start">
+                                        <div class="col-8">
+                                            <h4>Removal</h4>
+                                        </div>
+                                        <div class="col-4">
+                                            <h4 class="text-muted menu-price">$5+</h4>
+                                        </div>
+                                    </div>
+                                    <!--<p>Bacis Full Set-->
+                                    <!--</p>-->
+                                </div>
+                            </div>
+                            <div class="menus d-flex align-items-center">
+                                <div class="text-wrap">
+                                    <div class="row align-items-start">
+                                        <div class="col-8">
+                                            <h4>Paraffin Wax</h4>
+                                        </div>
+                                        <div class="col-4">
+                                            <h4 class="text-muted menu-price">$12+</h4>
+                                        </div>
+                                    </div>
+                                    <!--<p>Bacis Full Set-->
+                                    <!--</p>-->
+                                </div>
+                            </div>
+                            <div class="menus d-flex align-items-center">
+                                <div class="text-wrap">
+                                    <div class="row align-items-start">
+                                        <div class="col-8">
+                                            <h4>Cut Down Only</h4>
+                                        </div>
+                                        <div class="col-4">
+                                            <h4 class="text-muted menu-price">$8+</h4>
+                                        </div>
+                                    </div>
+                                    <!--<p>Bacis Full Set-->
+                                    <!--</p>-->
+                                </div>
+                            </div>
+                            <div class="menus d-flex align-items-center">
+                                <div class="text-wrap">
+                                    <div class="row align-items-start">
+                                        <div class="col-8">
+                                            <h4>Polish Only Hand</h4>
+                                        </div>
+                                        <div class="col-4">
+                                            <h4 class="text-muted menu-price">$12+</h4>
+                                        </div>
+                                    </div>
+                                    <!--<p>Bacis Full Set-->
+                                    <!--</p>-->
+                                </div>
+                            </div>
+                            <div class="menus d-flex align-items-center">
+                                <div class="text-wrap">
+                                    <div class="row align-items-start">
+                                        <div class="col-8">
+                                            <h4>Polish Only Toes</h4>
+                                        </div>
+                                        <div class="col-4">
+                                            <h4 class="text-muted menu-price">$15+</h4>
+                                        </div>
+                                    </div>
+                                    <!--<p>Bacis Full Set-->
+                                    <!--</p>-->
+                                </div>
+                            </div>
+                            <div class="menus d-flex align-items-center">
+                                <div class="text-wrap">
+                                    <div class="row align-items-start">
+                                        <div class="col-8">
+                                            <h4>Nail Fix</h4>
+                                        </div>
+                                        <div class="col-4">
+                                            <h4 class="text-muted menu-price">$5+</h4>
+                                        </div>
+                                    </div>
+                                    <!--<p>Bacis Full Set-->
+                                    <!--</p>-->
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-lg-6 col-xl-6 menu-wrap">
+                            <div class="heading-menu mb-4">
+                                <h3 class="text-center mb-3 mt-3">Dipping Powder</h3>
+                                <div class="menu-img rounded-circle m-auto">
+                                    <img class="img-fluid" src="img/home/Jia-nailroom-dip-powder.jpg" alt="Jia Nailroom">
+                                </div>
+                            </div>
+                            <div class="menus d-flex align-items-center">
+                                <div class="text-wrap">
+                                    <div class="row align-items-start">
+                                        <div class="col-8">
+                                            <h4>Eyebrow</h4>
+                                        </div>
+                                        <div class="col-4">
+                                            <h4 class="text-muted menu-price">$15+</h4>
+                                        </div>
+                                    </div>
+                                    <!--<p>Bacis Full Set-->
+                                    <!--</p>-->
+                                </div>
+                            </div>
+                            <div class="menus d-flex align-items-center">
+                                <div class="text-wrap">
+                                    <div class="row align-items-start">
+                                        <div class="col-8">
+                                            <h4>Lip</h4>
+                                        </div>
+                                        <div class="col-4">
+                                            <h4 class="text-muted menu-price">$10+</h4>
+                                        </div>
+                                    </div>
+                                    <!--<p>Bacis Full Set-->
+                                    <!--</p>-->
+                                </div>
+                            </div>
+                            <div class="menus d-flex align-items-center">
+                                <div class="text-wrap">
+                                    <div class="row align-items-start">
+                                        <div class="col-8">
+                                            <h4>Chin</h4>
+                                        </div>
+                                        <div class="col-4">
+                                            <h4 class="text-muted menu-price">$12+</h4>
+                                        </div>
+                                    </div>
+                                    <!--<p>Bacis Full Set-->
+                                    <!--</p>-->
+                                </div>
+                            </div>
+                            <div class="menus d-flex align-items-center">
+                                <div class="text-wrap">
+                                    <div class="row align-items-start">
+                                        <div class="col-8">
+                                            <h4>Full Face</h4>
+                                        </div>
+                                        <div class="col-4">
+                                            <h4 class="text-muted menu-price">$33+</h4>
+                                        </div>
+                                    </div>
+                                    <!--<p>Bacis Full Set-->
+                                    <!--</p>-->
+                                </div>
+                            </div>
+                            <div class="menus d-flex align-items-center">
+                                <div class="text-wrap">
+                                    <div class="row align-items-start">
+                                        <div class="col-8">
+                                            <h4>Half Arms</h4>
+                                        </div>
+                                        <div class="col-4">
+                                            <h4 class="text-muted menu-price">$20+</h4>
+                                        </div>
+                                    </div>
+                                    <!--<p>Bacis Full Set-->
+                                    <!--</p>-->
+                                </div>
+                            </div>
+                            <div class="menus d-flex align-items-center">
+                                <div class="text-wrap">
+                                    <div class="row align-items-start">
+                                        <div class="col-8">
+                                            <h4>Full Arms</h4>
+                                        </div>
+                                        <div class="col-4">
+                                            <h4 class="text-muted menu-price">$30+</h4>
+                                        </div>
+                                    </div>
+                                    <!--<p>Bacis Full Set-->
+                                    <!--</p>-->
+                                </div>
+                            </div>
+                            <div class="menus d-flex align-items-center">
+                                <div class="text-wrap">
+                                    <div class="row align-items-start">
+                                        <div class="col-8">
+                                            <h4>Under Arms</h4>
+                                        </div>
+                                        <div class="col-4">
+                                            <h4 class="text-muted menu-price">$20+</h4>
+                                        </div>
+                                    </div>
+                                    <!--<p>Bacis Full Set-->
+                                    <!--</p>-->
+                                </div>
+                            </div>
+                            <div class="menus d-flex align-items-center">
+                                <div class="text-wrap">
+                                    <div class="row align-items-start">
+                                        <div class="col-8">
+                                            <h4>Back</h4>
+                                        </div>
+                                        <div class="col-4">
+                                            <h4 class="text-muted menu-price">$40+</h4>
+                                        </div>
+                                    </div>
+                                    <!--<p>Bacis Full Set-->
+                                    <!--</p>-->
+                                </div>
+                            </div>
+                            <div class="menus d-flex align-items-center">
+                                <div class="text-wrap">
+                                    <div class="row align-items-start">
+                                        <div class="col-8">
+                                            <h4>Chest</h4>
+                                        </div>
+                                        <div class="col-4">
+                                            <h4 class="text-muted menu-price">$30+</h4>
+                                        </div>
+                                    </div>
+                                    <!--<p>Bacis Full Set-->
+                                    <!--</p>-->
+                                </div>
+                            </div>
+                            <div class="menus d-flex align-items-center">
+                                <div class="text-wrap">
+                                    <div class="row align-items-start">
+                                        <div class="col-8">
+                                            <h4>Half Legs</h4>
+                                        </div>
+                                        <div class="col-4">
+                                            <h4 class="text-muted menu-price">$35+</h4>
+                                        </div>
+                                    </div>
+                                    <!--<p>Bacis Full Set-->
+                                    <!--</p>-->
+                                </div>
+                            </div>
+                            <div class="menus d-flex align-items-center">
+                                <div class="text-wrap">
+                                    <div class="row align-items-start">
+                                        <div class="col-8">
+                                            <h4>Full Legs</h4>
+                                        </div>
+                                        <div class="col-4">
+                                            <h4 class="text-muted menu-price">$45+</h4>
+                                        </div>
+                                    </div>
+                                    <!--<p>Bacis Full Set-->
+                                    <!--</p>-->
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-lg-6 col-xl-6 menu-wrap">
+                            <div class="heading-menu mb-4">
+                                <h3 class="text-center mb-3 mt-3">Acrylic</h3>
+                                <div class="menu-img rounded-circle m-auto">
+                                    <img class="img-fluid" src="img/home/Jia-nailroom-acrylic.jpg" alt="Jia Nailroom">
+                                </div>
+                            </div>
+                            <div class="menus d-flex align-items-center">
+                                <div class="text-wrap">
+                                    <div class="row align-items-start">
+                                        <div class="col-8">
+                                            <h4>Acrylic Full Set</h4>
+                                        </div>
+                                        <div class="col-4">
+                                            <h4 class="text-muted menu-price">$53</h4>
+                                        </div>
+                                    </div>
+                                    <!--<p>Bacis Full Set-->
+                                    <!--</p>-->
+                                </div>
+                            </div>
+                            <div class="menus d-flex align-items-center">
+                                <div class="text-wrap">
+                                    <div class="row align-items-start">
+                                        <div class="col-8">
+                                            <h4>Ombre Acrylic Full Set</h4>
+                                        </div>
+                                        <div class="col-4">
+                                            <h4 class="text-muted menu-price">$73</h4>
+                                        </div>
+                                    </div>
+                                    <!--<p>Bacis Full Set-->
+                                    <!--</p>-->
+                                </div>
+                            </div>
+                            <div class="menus d-flex align-items-center">
+                                <div class="text-wrap">
+                                    <div class="row align-items-start">
+                                        <div class="col-8">
+                                            <h4>Acrylic Fill</h4>
+                                        </div>
+                                        <div class="col-4">
+                                            <h4 class="text-muted menu-price">$43</h4>
+                                        </div>
+                                    </div>
+                                    <!--<p>Bacis Full Set-->
+                                    <!--</p>-->
+                                </div>
+                            </div>
+                            <div class="menus d-flex align-items-center">
+                                <div class="text-wrap">
+                                    <div class="row align-items-start">
+                                        <div class="col-8">
+                                            <h4>Dipping Powder </h4>
+                                        </div>
+                                        <div class="col-4">
+                                            <h4 class="text-muted menu-price">$53</h4>
+                                        </div>
+                                    </div>
+                                    <!--<p>Bacis Full Set-->
+                                    <!--</p>-->
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Reservation Section -->
+    
+    <section id="gtco-reservation" class="bg-fixed bg-silver section-padding"
+             style="background-image: url(img/home/Jia-nailroom-background-01.jpg); background-position: center !important; background-size: cover">
+        <div class="container">
+            <div class="row justify-content-center m-0">
+                <p class="text-big">Nail care for the modern woman</p>
+                <p class="text-white text-center padding-booking">We offer hundreds of colors from chic neutrals to
+                    bright pastels — there's something for everyone! Stop on by our salon today for the perfect
+                    mani-pedi experience.
+                </p>
+                <a target="_blank"
+                   href="https://www.lldtek.com/salon/appt/NDc3NjJ8amlhbmFpbDkyfFdBXzA3OTkyfGVmMzVhMDExNjlkMGU2YzdkY2VjNmJlY2QzNjY0OTg2"
+                   class="btn-primary mt-3 booking-big">Book Now<span><i class="fa fa-arrow-right ml-3"></i></span></a>
+            </div>
+        </div>
+    
+    </section>
+    
+    <!-- End of Reservation Section -->
+    <footer class="mastfoot bg-silver section-padding bg-coffee">
+        <div class="inner container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <img src="img/Jia-nailroom-logo-white.png" class="img-fluid footer-logo mb-3"
+                                 alt="Jia Nailroom">
+                        </div>
+                        <div class="col-md-10">
+                            <p class="text-about-footer"><b>Jia Nailroom in Washington 99352,</b> will make you feel like a royalty even after the longest and most stressful of days. Our Mani-Pedi and Waxing treatments are perfect for a quick pick-me-up any day of the week. While you rest on our cozy couches, our specialists will pamper your hands and feet with a soak and scrub for moderate hydration and exfoliation.
+                                <br><br>
+                                
+                                Nail Salon in Richland, Washington 99352
+                            </p>
+                        </div>
+                    </div>
+                    <div class="footer-widget pr-0">
+                    
+                    
+                    </div>
+                
+                </div>
+                <div class="col-md-6 mb-3 border-top-footer">
+                    <div class="footer-widget px-lg-1 px-0">
+                        <h4 class="color-silver">Open Hours</h4>
+                        <ul class="list-unstyled open-hours">
+                            <li class="d-flex justify-content-start"><span class="left-column-day">Mon - Fri</span><span
+                                class="text-pink">09:30 AM - 08:00 PM</span></li>
+                            <li class="d-flex justify-content-start"><span class="left-column-day">Sat</span><span
+                                class="text-pink">09:30 AM - 06:00 PM</span></li>
+                            <li class="d-flex justify-content-start"><span class="left-column-day">Sun</span><span
+                                class="text-pink">10:30 AM - 05:30 PM</span></li>
+                            
+                        </ul>
+                        <nav class="nav nav-mastfoot justify-content-start">
+                            <a class="nav-link nav-link-footer" target="_blank"
+                               href="https://www.facebook.com/jianailroom">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a class="nav-link nav-link-footer" target="_blank"
+                               href="https://www.instagram.com/jianailroom">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            
+                            <a class="nav-link nav-link-footer" target="_blank"
+                               href="https://goo.gl/maps/HucjQ9TydPrZ5nzc9">
+                                <i class="fab fa-google"></i>
+                            </a>
+                        </nav>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-3 border-top-footer">
+                    <div class="footer-widget pl-lg-1 pl-0">
+                        <h4 class="color-silver">Contact Us</h4>
+                        
+                        <h5 class="color-silver-2">Address</h5>
+                        <p class="text-pink">2572 Queensgate Dr Richland, Washington 99352</p>
+                        <h5 class="color-silver-2">Tel</h5>
+                        <a href="tel:+15096283628" class="text-pink"><p>(509) 628-3628</p></a>
+                        <h5 class="color-silver-2">Email</h5>
+                        <a href="mailto:jia.nailroom@outlook.com" class="text-pink"><p>jia.nailroom@outlook.com</p></a>
+                    </div>
+                </div>
+                <div class="col-md-12 d-flex align-items-center border-top-footer">
+                    <p class="mx-auto text-center mb-0 color-silver-2">Copyright 2022. All Rights Reserved. Design by <a
+                            href="https://www.lldtek.com" target="_blank" class="nav-link-footer no-bg">LLDTEK</a></p>
+                </div>
+            
+            </div>
+        </div>
+    </footer>
+
+
+</div>
+<!-- External JS --> <script src="js/font-awesome.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>
+<script src="vendor/bootstrap/popper.min.js"></script>
+<script src="vendor/bootstrap/bootstrap.min.js"></script>
+<script src="vendor/select2/select2.min.js "></script>
+<script src="vendor/owlcarousel/owl.carousel.min.js"></script>
+<script src="https://cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.js"></script>
+<script src="vendor/stellar/jquery.stellar.js" type="text/javascript" charset="utf-8"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.1/js/tempusdominus-bootstrap-4.min.js"></script>
+<script src="js/jquery-migrate-3.0.0.min.js"></script>
+
+<!-- Main JS -->
+<script src="js/app.min.js "></script>
+<script>
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "290px";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+    }
+</script>
+</body>
+</html>
